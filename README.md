@@ -16,6 +16,7 @@ AquaTemp's cloud protocol is based on [aquatemp](https://github.com/dst6se/aquat
 | --- | --- | --- |
 | Keep target temperature visible and editable when mode is OFF | [tkejzlar/aquatemp#2](https://github.com/tkejzlar/aquatemp/pull/2) | Open |
 | Document 16-char password truncation causing login failures | [tkejzlar/aquatemp#3](https://github.com/tkejzlar/aquatemp/pull/3) | Open |
+| Promote inlet/outlet/ambient water temperatures to primary sensors with statistics | [tkejzlar/aquatemp#4](https://github.com/tkejzlar/aquatemp/pull/4) | Open |
 
 ## How to
 
