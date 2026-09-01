@@ -1,5 +1,7 @@
 # Home Assistant Aqua Temp & Hi Temp Heat Pumps
 
+> **This is a fork.** `main` tracks [tkejzlar/aquatemp](https://github.com/tkejzlar/aquatemp) (`Custom-component` branch) and adds a small number of changes that are open as pull requests upstream but not yet merged. Once a PR merges upstream, the equivalent entry below is removed on the next sync. See [Differences from upstream](#differences-from-upstream).
+
 This is Home Assistant's an integration for PHINX Aqua Temp / HiTemp compatible heat pumps.
 It allows controlling temperature, HVAC mode (heat, cool, auto, off) and fan mode (low, auto).
 It also reports all parameters available in sensors and sensors.
@@ -7,6 +9,13 @@ It also reports all parameters available in sensors and sensors.
 AquaTemp's cloud protocol is based on [aquatemp](https://github.com/dst6se/aquatemp) project with additional functionality.
 
 [Changelog](https://github.com/radical-squared/aquatemp/blob/master/CHANGELOG.md)
+
+## Differences from upstream
+
+| Change | Upstream PR | Status |
+| --- | --- | --- |
+| Keep target temperature visible and editable when mode is OFF | [tkejzlar/aquatemp#2](https://github.com/tkejzlar/aquatemp/pull/2) | Open |
+| Document 16-char password truncation causing login failures | [tkejzlar/aquatemp#3](https://github.com/tkejzlar/aquatemp/pull/3) | Open |
 
 ## How to
 
