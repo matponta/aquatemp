@@ -31,12 +31,14 @@ class APIType(StrEnum):
     AquaTemp = "aqua_temp"
     HiTemp = "hi_temp"
     AquaTempOld = "aqua_temp_old"
+    HandyHeatPump = "handy_heat_pump"
 
 
 API_TYPE_LEGACY = {
     "1": APIType.AquaTemp,
     "2": APIType.HiTemp,
     "99": APIType.AquaTempOld,
+    "3": APIType.HandyHeatPump,
 }
 
 API_TYPES = [str(t) for t in list(API_TYPE_LEGACY.values())]

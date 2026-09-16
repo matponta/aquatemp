@@ -22,7 +22,11 @@ AquaTemp's cloud protocol is based on [aquatemp](https://github.com/dst6se/aquat
 
 #### Requirements
 
-Account for AquaTemp / HiTemp
+Account for AquaTemp / HiTemp / Handy Heat Pump
+
+> **Handy Heat Pump** (PHNIX pool heat pumps, app `com.phinx.handheater`) uses the same
+> Linked-Go/"Go Heating IoT Platform" API on host `cloud.go-heating.com`. Select API type
+> **Handy Heat Pump** when adding the integration.
 
 ##### Shared device to avoid token expiration when using the App parallel to Integration
 
@@ -48,7 +52,7 @@ Integration supports **multiple** accounts and devices
 | ----------- | -------- | -------- | ------------------- | -------------------------------------------------------------------------------------------------- |
 | Username    | Textbox  | +        | -                   | Username of account                                                                                |
 | Password    | Textbox  | +        | -                   | Password of account                                                                                |
-| API Type    | Dropdown | +        | Aqua Temp (=<1.5.8) | API type (where the account was created), available values: Aqua Temp, HiTemp, Aqua Temp (=<1.5.8) |
+| API Type    | Dropdown | +        | Aqua Temp (=<1.5.8) | API type (where the account was created), available values: Aqua Temp, HiTemp, Aqua Temp (=<1.5.8), Handy Heat Pump |
 
 ###### Validation errors
 

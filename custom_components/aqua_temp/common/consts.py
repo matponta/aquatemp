@@ -25,6 +25,7 @@ CONF_TITLE = "title"
 CONF_API_TYPE = "api_type"
 
 PRODUCT_IDS = [
+    "1747077846280486914",  # Handy Heat Pump - PHNIX PASRW050-P-BP6II-CC-E (Indiana EVO M 50)
     "1245226668902080512",  # Hitemp
     "1132174963097280512",  # Aqua Temp
     "1656269521923575808",  # Aqua Temp
